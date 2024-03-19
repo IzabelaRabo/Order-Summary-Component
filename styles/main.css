@@ -1,0 +1,81 @@
+.annual-plan-container{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 55px 50% 1fr;
+    align-items: center;
+    
+}
+.icon-music{
+    width: 45px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+.annual-pricing{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+h2,h3,h4,h5,button{
+    font-size: 16px;
+}
+h2{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0;
+}
+h3{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0;
+}
+h4{
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+h4:hover{
+    color: hsl(245, 58%, 68%);
+    text-decoration: none;
+}
+.confirmation-section{
+    display: block;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+button{
+    width: 100%;
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 10px;   
+    font-family: Red Hat Display;
+}
+button:hover{
+    background-color: hsl(245, 58%, 68%);
+    color: white;   
+}
+h5{
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+}
+h5:hover{
+    color: hsl(223, 47%, 23%);
+}
+@media (max-width: 375px){
+    .annual-plan-container{
+        margin: 15px;   
+    }
+}
